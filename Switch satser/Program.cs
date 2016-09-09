@@ -10,6 +10,7 @@ namespace Switch_satser
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
