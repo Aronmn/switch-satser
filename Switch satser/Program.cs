@@ -10,7 +10,31 @@ namespace Switch_satser
     {
         static void Main(string[] args)
         {
+            //övning 1
 
+            Console.WriteLine("Skriv in ett hel tal");
+
+            int tal = int.Parse(Console.ReadLine());
+            
+
+            switch (tal)
+            {
+                case 1:
+                    Console.WriteLine("Ett");
+                    break;
+                case 2:
+                    Console.WriteLine("Två");
+                    break;
+                case 3:
+                    Console.WriteLine("Tre");
+                    break;
+                case 4:
+                    Console.WriteLine("Fyra");
+                    break;
+                default:
+                    Console.WriteLine("Ogilitigt alternativ");
+                    break;
+            }
         }
     }
 }
